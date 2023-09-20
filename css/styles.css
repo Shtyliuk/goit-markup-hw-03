@@ -1,0 +1,174 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #434455;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+address {
+  font-style: normal;
+}
+.header {
+}
+.header__nav {
+}
+.logo__desc {
+  color: #2e2f42;
+}
+.logo__header {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav__link:hover,
+.nav__link:focus {
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.header__address {
+}
+.address__link:hover,
+.address__link:focus {
+  color: #404bbf;
+}
+.address__link {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.hero {
+  background-color: #2e2f42;
+}
+.hero_title {
+  color: #fff;
+  font-size: 56px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero__btn {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background: #4d5ae5;
+}
+.hero__btn:hover,
+.hero__btn:focus {
+  background: #404bbf;
+}
+.feature {
+}
+.feature__title {
+}
+.feature__list {
+}
+.feature__item {
+}
+.feature__subtitle {
+}
+.feature__text {
+}
+.teamcard {
+  background: #f4f4fd;
+}
+.teamcard__title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.teamcard__list {
+}
+.teamcard__item {
+  background-color: #ffffff;
+}
+.teamcard__images {
+}
+.teamcard__subtitle {
+}
+.teamcard__text {
+}
+.portfolio {
+}
+.portfolio__title {
+  text-align: center;
+  text-transform: capitalize;
+}
+.portfolio__list {
+}
+.portfolio__item {
+}
+.portfolio__images {
+}
+.portfolio__subtitle {
+}
+.portfolio__text {
+}
+.footer {
+  background: #2e2f42;
+}
+.logo__footer {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo__descwth {
+  color: #f4f4fd;
+}
+.footer__text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
