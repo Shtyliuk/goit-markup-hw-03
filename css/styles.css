@@ -43,16 +43,20 @@ img {
   display: block;
 }
 .container {
-  width: 1128px;
+  width: 100%;
+  max-width: 1188px;
   padding-left: 0 15px;
   margin: 0 auto;
 }
 .header {
+}
+.header__container{
   display: flex;
-  justify-content: center;
   padding: 24px 156px;
+
 }
 .header__nav {
+  display: flex;
 }
 .logo__desc {
   color: #2e2f42;
@@ -65,13 +69,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  align-items: center;
-  flex-shrink: 0;
-  margin-right: 76px;
+  display: flex;
 }
 .nav__list {
-  display: inline-flex;
+  display: flex;
   gap: 40px;
+  
 }
 .nav__item {
 }
@@ -91,8 +94,12 @@ img {
   letter-spacing: 0.02em;
 }
 .header__address {
-  display: inline-flex;
-
+  display: flex;
+}
+.address__list{
+display: flex;
+margin-left: auto;
+gap: 40px;
 }
 .address__link:hover,
 .address__link:focus {
@@ -108,10 +115,11 @@ img {
 .address__item {
 }
 .hero {
-  display: flex;
-  align-items: center;
+}
+.hero__box{
   background-color: #2e2f42;
   padding: 188px 472px;
+  
 }
 .hero_title {
   color: #fff;
@@ -120,8 +128,8 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
   width: 496px;
+  margin: 0 auto;
 }
 .hero__btn {
   color: #fff;
@@ -131,9 +139,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  border: none;
   padding: 16px 32px;
   border-radius: 4px;
+  margin-top: 48px;
 }
 .hero__btn:hover,
 .hero__btn:focus {
@@ -158,16 +168,16 @@ img {
 .feature__title {
 }
 .feature__list {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
 }
 .feature__item {
+width: calc((100%-24*3)/4);
 }
 .feature__subtitle {
   margin-bottom: 8px;
 }
 .feature__text {
-  max-width: 264px;
 }
 .teamcard {
   text-align: center;
@@ -210,7 +220,8 @@ img {
   margin-bottom: 72px;
 }
 .portfolio__list {
-  display: inline-flex;
+display: flex;
+gap: 24px;
   flex-wrap: wrap;
 }
 .portfolio__item {
@@ -225,11 +236,10 @@ img {
   margin-bottom: 32px;
 }
 .footer {
+}
+.footer__container{
   background: #2e2f42;
-  border-top: 1.5px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0;
 }
 .logo__footer {
   color: #4d5ae5;
@@ -238,8 +248,9 @@ img {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  display: inline-block;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 .logo__descwth {
   color: #f4f4fd;
