@@ -49,6 +49,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+/**! HEADER !**/
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -115,6 +116,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*MAIN*/
+/**! SECTION HERO !**/
 .hero {
   padding: 188px 0;
   background-color: #2e2f42;
@@ -150,6 +153,7 @@ img {
 .hero__btn:focus {
   background: #404bbf;
 }
+/**! SECTION FEATURE !**/
 .feature {
   display: flex;
   padding: 120px 0;
@@ -176,6 +180,7 @@ img {
 .feature__subtitle {
   margin-bottom: 8px;
 }
+/**! SECTION TEAMCARD !**/
 .teamcard {
   text-align: center;
   padding: 120px 0;
@@ -210,6 +215,7 @@ img {
 .teamcard__text {
   text-align: center;
 }
+/**! SECTION PORTFOLIO !**/
 .portfolio__container {
   padding: 120px 0;
 }
@@ -238,6 +244,7 @@ img {
 .portfolio__text {
   margin-bottom: 32px;
 }
+/* FOOTER */
 .footer {
   padding: 100px 0;
   background: #2e2f42;
