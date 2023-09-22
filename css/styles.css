@@ -177,7 +177,7 @@ img {
   gap: 24px;
 }
 .feature__item {
-  flex-basis: calc((100% - 72px) / 4));
+  flex-basis: calc((100% - 72px) / 4);
 }
 .feature__subtitle {
   margin-bottom: 8px;
@@ -205,7 +205,7 @@ img {
 }
 .teamcard__item {
   background-color: #ffffff; 
-  flex-basis: calc((100% - 72px) / 4));
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .teamcard__images {
@@ -254,9 +254,12 @@ img {
 }
 .footer {
   padding: 100px 0;
+  background: #2e2f42;
 }
 .footer__container {
-  background: #2e2f42;
+  align-items: self-start;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .logo__footer {
   color: #4d5ae5;
