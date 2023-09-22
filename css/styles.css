@@ -175,9 +175,9 @@ img {
 .feature__list {
   display: flex;
   gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .feature__item {
-  flex-basis: calc((100% - 72px) / 4);
 }
 .feature__subtitle {
   margin-bottom: 8px;
